@@ -1,0 +1,356 @@
+@charset "UTF-8";
+@import url(local.google.fonts.css);
+@import url(icontfont.css);
+/*@import url("https://fonts.lug.ustc.edu.cn/css?family=Vollkorn");*/
+@font-face {
+  font-family: 'Chancery';
+  src: url("../fonts/chancery/apple-chancery-webfont.eot");
+  src: local("Apple Chancery"), url("../fonts/chancery/apple-chancery-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/chancery/apple-chancery-webfont.woff2") format("woff2"), url("../fonts/chancery/apple-chancery-webfont.woff") format("woff"), url("../fonts/chancery/apple-chancery-webfont.ttf") format("truetype"), url("../fonts/chancery/apple-chancery-webfont.svg#apple-chancery") format("svg");
+  font-weight: lighter;
+  font-style: normal; }
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+/**
+ * Remove default margin.
+ */
+
+
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+
+
+
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+html {
+  font-size: 16px;
+  box-sizing: border-box; }
+
+body {
+  padding: 0;
+  margin: 5px;
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #34495e;
+  background: #f6f7f9;
+  scroll-behavior: smooth; }
+
+
+
+.container {
+  border: 1px solid #BBB;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px #BBB;
+  font-family: 'Lato', sans-serif;
+  background: white; 
+  margin: 0 auto;
+  position: relative;
+  width: 960px; 
+
+  /*background-image: url("http://cdn.chongminggao.top/background/profile_white.jpg");*/
+  background-image: url("../photo/profile_flip.jpg");
+  background-repeat: no-repeat;
+  background-size: 320px;
+  background-position: right bottom;
+
+}
+
+section {
+  margin: 0 auto;
+  position: relative;
+  width: 900px; 
+}
+
+body {
+  -webkit-font-smoothing: subpixel-antialiased; }
+
+/*@import url(http://fonts.lug.ustc.edu.cn/css?family=Lato:100,300,400,300italic|Vollkorn:400italic,400);*/
+.basic-info {
+  position: absolute;
+  right: 40px;
+  top: 0px;
+  color: #555;
+  text-align: right; }
+  .basic-info name {
+    display: block;
+    font-family: "Chancery", cursive, LiSu, sans-serif;
+    margin: 10px 0 10px 0;
+    font-size: 2em;
+    font-weight: bold; }
+    .basic-info name span {
+      display: inline-block;
+      width: 180px;
+      position: relative;
+      top: -3px;
+      margin-left: 8px;
+      border-bottom: 5px solid #555; }
+  .basic-info p, .basic-info span {
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    margin: 0px; }
+    .basic-info p B, .basic-info span B {
+      font-style: normal;
+      font-family: Helvetica; }
+
+.envelope:before {
+  content: "\e605"; }
+
+
+
+.home-page {
+  /*background-image: url("http://cdn.chongminggao.top/background/photo_1937x1453.jpg");*/
+  background-image: url("../photo/background_shallow.jpg");
+  background-position: 0px -60px; 
+  background-size: cover;
+  height: 520px;
+  width: 960px; 
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle; 
+}
+a {
+    color: #c05b4d;
+    text-decoration: none;
+}
+
+
+h1 {
+  /*text-transform: uppercase;
+  font-size: 22px;
+  margin-bottom: -8px;
+  border-top: 3px solid #555;*/
+
+  /*color: #268bd2;*/
+  color: #555;
+
+  margin-top: 30px;
+  margin-bottom: 0px;
+  /*margin-bottom: -30px;*/
+  /*margin-top: 50px;*/
+  text-transform: uppercase;
+  font-size: 24px;
+  padding-left: 100px;
+  border-top: 5px dotted #555;
+
+}
+
+h1 span {
+    /*position: relative;
+    top: -13px;
+    background-color: white;
+    padding-right: 5px;*/
+
+    position: relative;
+    top: -20px;
+    /*background-color: #f6f7f9;*/
+    background-color: white;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.resume {
+    position: absolute;
+    right: 40px;
+    bottom: -30px;
+    color: #555;
+    font-family: 'Vollkorn', serif;
+    /*font-style: italic;*/
+    margin: 0px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.experiences {
+  font-weight: 300;
+}
+
+.experiences table{
+  margin: auto;
+}
+
+.experiences .logo {
+  width: 280px;
+  text-align: center;
+}
+
+.experiences tr {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.experiences .education .des {
+  width: 580px;
+}
+
+.experiences .internship .des {
+  width: 580px;
+}
+
+.experiences .des {
+  color: #555;
+}
+
+.experiences .des .name {
+  font-family: lato,sans-serif;
+  font-weight: 500;
+  color: #444;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.experiences .des .date {
+  font-family: lato,sans-serif;
+  padding-bottom: 5px;
+  font-weight: 500;
+  color: #777;
+  /*font-size: 20px;*/
+}
+
+.experiences .middle {
+  width: 2%;
+}
+
+
+paper {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  position: relative;
+  /*height: 300px;*/
+  display: flex;
+  margin: auto;
+  margin-bottom: 30px;
+  width: 95%;
+
+  align-items:center;
+}
+
+paper:after {
+  content: "";
+  position: absolute;
+  left:0%;
+  bottom:-15px;
+  width: 100%;
+  border-top: 1px dotted #555;
+}
+
+paper#last:after {
+  all: unset; 
+}
+
+paper img {
+  float:left;
+  margin-right:5%;
+  width: 40%;
+}
+paper .des {
+    display: block;
+    width: 55%;
+}
+paper .pub_title {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #111;
+}
+
+paper .pub_authors {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 13px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  color: #133d67;
+}
+
+paper .label-default {
+    background-color: #bdbbbb;
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 80%;
+    font-weight: bold;
+    line-height: 1;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+paper .pub_type {
+    font-weight: 300;
+    color: #5F5F5F;
+    padding-bottom: 8px;
+    /*font-size: 14px;*/
+}
+
+paper .pub_award {
+    font-weight: bold;
+    background-color: #f5a24c;
+    font-size: 80%;
+    color: #ffffff;
+    display: inline;
+    padding: .2em .6em .3em;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+
+}
+
+
+.award table {
+    /*position: absolute;*/
+    left: 30px;
+    top: 30px;
+    margin-bottom: 15px;
+    width:560px;
+    
+}
+.award table td{
+    padding-left: 20px;
+    padding-bottom: 8px;
+    font-weight: 300;
+    vertical-align: top;
+    font-size: 17px;
+}
+
+
+
+.footer .copyright {
+    margin: 10px 0;
+    color: #8a8a8a;
+    text-align: center;
+    font-family: "Lato", sans-serif; 
+  }
+
+
