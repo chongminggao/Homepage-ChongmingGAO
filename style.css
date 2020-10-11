@@ -5,7 +5,7 @@
 @font-face {
   font-family: 'Chancery';
   src: url("fonts/chancery/apple-chancery-webfont.eot");
-  src: local("Apple Chancery"), url("http://cdn.chongminggao.top/fonts/chancery/apple-chancery-webfont.eot?#iefix") format("embedded-opentype"), url("http://cdn.chongminggao.top/fonts/chancery/apple-chancery-webfont.woff2") format("woff2"), url("http://cdn.chongminggao.top/fonts/chancery/apple-chancery-webfont.woff") format("woff"), url("http://cdn.chongminggao.top/fonts/chancery/apple-chancery-webfont.ttf") format("truetype"), url("http://cdn.chongminggao.top/fonts/chancery/apple-chancery-webfont.svg#apple-chancery") format("svg");
+  src: local("Apple Chancery"), url("fonts/chancery/apple-chancery-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/chancery/apple-chancery-webfont.woff2") format("woff2"), url("fonts/chancery/apple-chancery-webfont.woff") format("woff"), url("fonts/chancery/apple-chancery-webfont.ttf") format("truetype"), url("fonts/chancery/apple-chancery-webfont.svg#apple-chancery") format("svg");
   font-weight: lighter;
   font-style: normal; }
 
