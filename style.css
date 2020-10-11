@@ -4,7 +4,7 @@
 /*@import url("https://fonts.lug.ustc.edu.cn/css?family=Vollkorn");*/
 @font-face {
   font-family: 'Chancery';
-  src: url("http://cdn.chongminggao.top/fonts/chancery/apple-chancery-webfont.eot");
+  src: url("fonts/chancery/apple-chancery-webfont.eot");
   src: local("Apple Chancery"), url("http://cdn.chongminggao.top/fonts/chancery/apple-chancery-webfont.eot?#iefix") format("embedded-opentype"), url("http://cdn.chongminggao.top/fonts/chancery/apple-chancery-webfont.woff2") format("woff2"), url("http://cdn.chongminggao.top/fonts/chancery/apple-chancery-webfont.woff") format("woff"), url("http://cdn.chongminggao.top/fonts/chancery/apple-chancery-webfont.ttf") format("truetype"), url("http://cdn.chongminggao.top/fonts/chancery/apple-chancery-webfont.svg#apple-chancery") format("svg");
   font-weight: lighter;
   font-style: normal; }
@@ -226,7 +226,7 @@ h1 span {
   font-family: lato,sans-serif;
   font-weight: 500;
   color: #444;
-  font-size: 20px;
+  font-size: 19px;
   padding-bottom: 5px;
 }
 
