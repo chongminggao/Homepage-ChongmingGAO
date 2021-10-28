@@ -210,6 +210,11 @@ h1 span {
   margin-bottom: 10px;
 }
 
+.experiences tr:hover{
+  transform: translate(0px, -2px);
+  box-shadow: 0 15px 45px -10px rgba(10, 16, 34, .2);
+}
+
 .experiences .education .des {
   width: 580px;
 }
@@ -253,6 +258,11 @@ paper {
   width: 95%;
 
   align-items:center;
+}
+
+paper:hover {
+  transform: translate(0px, -2px);
+  box-shadow: 0 15px 45px -10px rgba(10, 16, 34, .2);
 }
 
 paper:after {
@@ -334,7 +344,6 @@ paper .pub_highlight {
     top: 30px;
     margin-bottom: 15px;
     width:560px;
-    
 }
 .award table td{
     padding-left: 20px;
@@ -342,6 +351,11 @@ paper .pub_highlight {
     font-weight: 300;
     vertical-align: top;
     font-size: 17px;
+}
+
+.award tr:hover{
+  transform: translate(0px, -2px);
+  box-shadow: 0 15px 45px -10px rgba(10, 16, 34, .2);
 }
 
 
