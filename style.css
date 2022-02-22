@@ -260,6 +260,10 @@ paper {
   align-items:center;
 }
 
+/*
+Hover style learned from:  https://github.com/artemsheludko/flexible-jekyll
+An example: https://liu-xb.github.io/;
+*/
 paper:hover {
   transform: translate(0px, -2px);
   box-shadow: 0 15px 45px -10px rgba(10, 16, 34, .2);
@@ -280,8 +284,8 @@ paper#last:after {
 
 paper img {
   float:left;
-  margin-right:5%;
-  width: 40%;
+  margin-right:3%;
+  width: 49%;
 }
 paper .des {
     display: block;
@@ -304,11 +308,13 @@ paper .pub_authors {
 
 paper .label-default {
     background-color: #bdbbbb;
-    display: inline;
-    padding: .2em .6em .3em;
-    font-size: 80%;
+    /*display: inline;*/
+    display:  inline-block;
+    padding: .2em .6em .3em .6em;
+    margin-bottom: .2em;
+    font-size: 90%;
     font-weight: bold;
-    line-height: 1;
+    line-height: 1.1;
     color: #ffffff;
     text-align: center;
     white-space: nowrap;
@@ -326,7 +332,8 @@ paper .pub_type {
 paper .pub_highlight {
     font-weight: bold;
     background-color: #f5a24c;
-    font-size: 80%;
+    font-size: 90%;
+    line-height: 1.2;
     color: #ffffff;
     display: inline;
     padding: .2em .6em .3em;
