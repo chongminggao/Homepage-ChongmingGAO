@@ -59,7 +59,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #34495e;
   background: #f6f7f9;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth; 
+
+  background: linear-gradient(rgba(255,255,255,0.3),rgba(245,245,245,0.9)), 
+  /*url("image/night-right.jpg");*/
+  /*url("image/moss.png");*/
+  url("https://cdn.chongminggao.top/image/corner.jpg");
+  background-position: right top;
+  background-repeat: repeat;
+  opacity: 1; 
+  background-size: 50%;
+  background-color: #f5f7f9;
+  background-attachment: fixed;
+}
 
 
 
@@ -88,10 +100,13 @@ section {
 }
 
 body {
-  -webkit-font-smoothing: subpixel-antialiased; }
+  /*-webkit-font-smoothing: subpixel-antialiased; */
+}
+
 
 /*@import url(http://fonts.lug.ustc.edu.cn/css?family=Lato:100,300,400,300italic|Vollkorn:400italic,400);*/
-.basic-info {
+/*老式对齐*/
+/*.basic-info {
   position: absolute;
   right: 40px;
   top: 0px;
@@ -116,23 +131,71 @@ body {
     margin: 0px; }
     .basic-info p B, .basic-info span B {
       font-style: normal;
-      font-family: Helvetica; }
+      font-family: Helvetica; }*/
+
+.basic-info {
+  position: absolute;
+  left: 300px;
+  top: 90px;
+  color: #555;
+  text-align: left; }
+name {
+    position: absolute;
+    left: 80px;
+    display: block;
+    font-family: "Chancery", cursive, LiSu, sans-serif;
+    margin: 30px 0 10px 0;
+    font-size: 2em;
+    font-weight: bold; }
+name span {
+    display: inline-block;
+    width: 200px;
+    position: relative;
+    top: -3px;
+    margin-left: 8px;
+    border-bottom: 5px solid #555; 
+}
+.basic-info p, .basic-info span {
+  /*font-family: 'Vollkorn', lato;*/
+  font-family: Helvetica;
+  font-size: 19px;
+  /*font-style: italic;*/
+  margin: 6px 0;
+}
+.basic-info p B, .basic-info span B {
+  font-style: normal;
+  font-family: Helvetica; }
+.basic-info .contact {
+  font-family: 'Vollkorn', lato;
+}
 
 .envelope:before {
   content: "\e605"; }
 
 
 
+.photo {
+    position: absolute;
+    left: 100px;
+    top: 90px;
+    color: #555;
+    text-align: right;
+}
+.photo img {
+  height: 210px;
+}
+
+
 .home-page {
-  /*background-image: url("http://cdn.chongminggao.top/background/photo_1937x1453.jpg");*/
-  background-image: url("http://cdn.chongminggao.top/photo/background_shallow.jpg");
+  /*放大图*/
+  /*background-image: url("photo/seame.jpg");
   background-position: 0px -60px; 
-  background-size: cover;
-  height: 520px;
+  background-size: cover;*/
+  height: 320px;
   width: 960px; 
   border-top-left-radius: 20px;
-  border-top-right-radius: 20px;}
-
+  border-top-right-radius: 20px;
+}
 
 img {
   max-width: 100%;
