@@ -99,9 +99,7 @@ section {
   width: 900px; 
 }
 
-body {
-  /*-webkit-font-smoothing: subpixel-antialiased; */
-}
+
 
 
 /*@import url(http://fonts.lug.ustc.edu.cn/css?family=Lato:100,300,400,300italic|Vollkorn:400italic,400);*/
@@ -133,9 +131,10 @@ body {
       font-style: normal;
       font-family: Helvetica; }*/
 
+
 .basic-info {
   position: absolute;
-  left: 300px;
+  left: 320px;
   top: 90px;
   color: #555;
   text-align: left; }
@@ -182,7 +181,7 @@ name span {
     text-align: right;
 }
 .photo img {
-  height: 210px;
+  height: 215px;
 }
 
 
@@ -191,7 +190,7 @@ name span {
   /*background-image: url("photo/seame.jpg");
   background-position: 0px -60px; 
   background-size: cover;*/
-  height: 320px;
+  height: 480px;
   width: 960px; 
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -255,8 +254,17 @@ h1 span {
     font-weight: bold;
 }
 
-.experiences {
+/* .experiences {
   font-weight: 300;
+} */
+.experiences {
+  font-weight: 500;
+  font-size: 17px;
+  position: absolute;
+  top: 330px;
+  left: 100px;
+  width: 800px;
+  line-height: 1.4; /* 设置行高为1.35倍字体大小 */
 }
 
 .experiences table{
@@ -278,13 +286,14 @@ h1 span {
   box-shadow: 0 15px 45px -10px rgba(10, 16, 34, .2);
 }
 
-.experiences .education .des {
+.experiences .education .des_selected {
   width: 580px;
 }
 
-.experiences .internship .des {
+
+/* .experiences .internship .des_selected {
   width: 580px;
-}
+} */
 
 .experiences .des {
   color: #555;
@@ -319,7 +328,7 @@ paper {
   margin: auto;
   margin-bottom: 30px;
   padding: 10px;
-  width: 95%;
+  width: 94%;
 
   align-items:center;
 }
@@ -346,6 +355,64 @@ paper#last:after {
   all: unset; 
 }
 
+.pdf_logo{
+  TEXT-ALIGN: center;
+  WIDTH: 25px;
+  BACKGROUND-COLOR: #e2eff9;
+}
+
+TABLE {
+  MARGIN-BOTTOM: 10px;
+  MARGIN-LEFT: 30px;
+  FONT-SIZE: 16px;
+  BORDER-COLLAPSE: collapse;
+  TEXT-ALIGN: left;
+  WIDTH: 850px;
+}
+
+.title {
+  FONT-WEIGHT: bold;
+}
+
+/* paper .test {
+  BACKGROUND-COLOR: #f6fbfe;
+  padding: 5px 10px;
+} */
+
+.pub_info {
+  BACKGROUND-COLOR: #f6fbfe;
+  PADDING-BOTTOM: 1px;
+  PADDING-TOP: 3px;
+  PADDING-LEFT: 5px;
+  PADDING-RIGHT: 5px;
+}
+
+
+TD {
+  PADDING-BOTTOM: 1px;
+  PADDING-TOP: 3px;
+  PADDING-LEFT: 5px;
+  PADDING-RIGHT: 5px;
+}
+
+.left {
+  FONT-SIZE: 10px;
+  TEXT-ALIGN: center;
+  WIDTH: 25px;
+  BACKGROUND-COLOR: #e2eff9;
+}
+
+/* .selected {
+  width: 90%; 
+  table-layout: fixed;
+} */
+
+.selected .img {
+  float: left;
+  margin-right: 3%;
+  /* width: 50%; */
+}
+
 paper img {
   float:left;
   margin-right:3%;
@@ -353,9 +420,9 @@ paper img {
 }
 paper .des {
     display: block;
-    width: 55%;
+    width: 90%;
 }
-paper .pub_title {
+.pub_title {
   font-family: 'Roboto', Helvetica, Arial, serif;
   font-weight: 400;
   font-size: 18px;
@@ -393,14 +460,14 @@ paper .pub_type {
     /*font-size: 14px;*/
 }
 
-paper .pub_highlight {
+.pub_highlight {
     font-weight: bold;
     background-color: #f5a24c;
     font-size: 90%;
-    line-height: 1.2;
+    line-height: 1.0;
     color: #ffffff;
     display: inline;
-    padding: .2em .6em .3em;
+    padding: .1em .6em .1em;
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
