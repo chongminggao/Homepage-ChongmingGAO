@@ -363,11 +363,11 @@ paper#last:after {
 
 TABLE {
   MARGIN-BOTTOM: 10px;
-  MARGIN-LEFT: 30px;
+  MARGIN-LEFT: 70px;
   FONT-SIZE: 16px;
   BORDER-COLLAPSE: collapse;
   TEXT-ALIGN: left;
-  WIDTH: 850px;
+  WIDTH: 780px;
 }
 
 .title {
