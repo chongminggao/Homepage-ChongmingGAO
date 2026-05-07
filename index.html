@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Chongming Gao's academic homepage: research, publications, awards, and contact information." />
     
     <link rel="alternate" href="/default" title="Chongming GAO (高崇铭)'s Homepage">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
@@ -42,27 +44,28 @@
                 <p>Hefei, China</p>
             </div>
             <blocker style="position: absolute; bottom: 0px; height: 30px; width: 960px; background-image: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1));"></blocker> -->
-            <name> <span></span> Chongming GAO | 高崇铭 </name>
+            <h1 class="hero-name"><span></span> Chongming GAO <em>| 高崇铭</em></h1>
             <!-- <div class='photo'><img src="photo/seame1.jpg"></div> -->
-            <div class='photo'><img src="https://cdn.chongminggao.top/photo/chongming_spring_cropped_small.jpeg"></div>
+            <div class='photo'><img src="https://cdn.chongminggao.top/photo/chongming_spring_cropped_small.jpeg" alt="Chongming Gao portrait"></div>
             <div class="basic-info">
                 <p><B>Associate Research Professor</B> (副研究员)</p>
                 <!-- <p><a href="https://sist.ustc.edu.cn/" target="_blank">School of Information Science and Technology</a></p> -->
                 <p><B>From:</B> <a href="https://data-science.ustc.edu.cn/_upload/tpl/15/04/5380/template5380/people.html" target="_blank">Lab for Data Science (LDS实验室)</a> @ <a href="http://en.ustc.edu.cn/" target="_blank">USTC (中科大)</a></p>
                 <!-- <p><B>Mentor:</B> <a href="http://staff.ustc.edu.cn/~hexn/" target="_blank">Xiangnan He (何向南)</a>.</p> -->
                 <p><B>Research Interest:</B> <I>LLMs, Recommender Systems</I></p>
-                
-                <p><br/></p>
                 <!-- <p class="phone"><img src="logo/phone-logo.svg" style="width: 20px;"></icon> (+86) 15008242302</p> -->
-                <a href="https://github.com/chongminggao" title="Github" target="_blank"><span class="github contact"><img src="logo/icons8-github.svg" style="width: 35px;"></span></a>
-                <a href="https://scholar.google.com/citations?user=eaGLJ-UAAAAJ&hl=en" title="Google Scholar" target="_blank"><span class="googlescholar contact"><img src="logo/icons8-google-scholar.svg" style="width: 35px;"></span></a>
-                <a href="https://www.zhihu.com/people/gchongm/posts" title="Zhihu" target="_blank"><span class="zhihu contact"><img src="logo/icons8-zhihu_s.svg" style="width: 35px;"></span></a>
-                 |  <span class="wechat contact"><img src="logo/wechat-logo.svg" style="width: 35px;"> 619082231 </span>
-                <br/>
-                <a href="mailto:chongming.gao@gmail.com" class="iconfont icon-email" title="">
-                  <span class="contact">chongming.gao@gmail.com</span>
-                </a>
-                <p class="contact">Hefei, China</p>
+                <div class="contact-row">
+                    <a href="https://github.com/chongminggao" title="Github" target="_blank"><span class="github contact"><img src="logo/icons8-github.svg" style="width: 35px;" alt="GitHub"></span></a>
+                    <a href="https://scholar.google.com/citations?user=eaGLJ-UAAAAJ&amp;hl=en" title="Google Scholar" target="_blank"><span class="googlescholar contact"><img src="logo/icons8-google-scholar.svg" style="width: 35px;" alt="Google Scholar"></span></a>
+                    <a href="https://www.zhihu.com/people/gchongm/posts" title="Zhihu" target="_blank"><span class="zhihu contact"><img src="logo/icons8-zhihu_s.svg" style="width: 35px;" alt="Zhihu"></span></a>
+                    <span class="wechat contact"><img src="logo/wechat-logo.svg" style="width: 35px;" alt="WeChat"> 619082231 </span>
+                </div>
+                <div class="contact-meta">
+                    <a href="mailto:chongming.gao@gmail.com" class="iconfont icon-email" title="">
+                      <span class="contact">chongming.gao@gmail.com</span>
+                    </a>
+                    <span class="contact-location">Hefei, China</span>
+                </div>
             </div>
             <!-- <div class="resume"> 
                 <span>Download: &nbsp</span>
@@ -80,14 +83,50 @@
             on conversational recommender systems and AI applications in social science. -->
             I am currently recruiting Master’s students. If you are interested in working with me, please feel free to contact me
             via WeChat or email. </div>
-            </div>
         </section>
 
     
 
         <section class="research">
-            <h1><span>Selected Research</span></h1>
+            <h2 class="section-title"><span>Selected Research</span></h2>
             
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="left"><a href="https://arxiv.org/pdf/2605.04559" target="_blank"><img src="./pdf.gif"><br>pdf</a>
+                        </td>
+                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
+                        <td class="pub_info"><span class="title">Beyond Static Best-of-N: Bayesian List-wise Alignment for
+                                LLM-based Recommendation</span>
+                            <br>Ruijun Chen, <u><b>Chongming Gao*</b></u>, Jiawei Chen, Weiqin Yang, Xiangnan He*
+                            <br> SIGIR 2026 &nbsp;&nbsp;
+                            <a href="https://github.com/RegionCh/BLADE" target="_blank">Code</a> &nbsp;&nbsp;
+                            <!-- <a href="https://zhuanlan.zhihu.com/p/2017951416166154687" target="_blank">知乎</a> &nbsp;&nbsp; -->
+                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
+                            *Corresponding Author.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="left"><a href="https://arxiv.org/pdf/2604.08559" target="_blank"><img src="./pdf.gif"><br>pdf</a>
+                        </td>
+                        <!-- <td class="left"><a href="https://arxiv.org/pdf/2408.06809" target="_blank"><img src="./files/pdf.gif"><br>pdf</a></td> -->
+                        <td class="pub_info"><span class="title">Medical Reasoning with Large Language Models: A Survey and MR-Bench</span>
+                            <br>Xiaohan Ren, Chenxiao Fan, Wenyin Ma, Hongliang He, <u><b>Chongming Gao*</b></u>, Xiaoyan Zhao*, Fuli Feng*
+                            <br> iNew Medicine &nbsp;&nbsp;
+                            <a href="https://github.com/RXH04-USTC/Medical-Reasoning-Survey" target="_blank">Code</a> &nbsp;&nbsp;
+                            <!-- <a href="https://zhuanlan.zhihu.com/p/2017951416166154687" target="_blank">知乎</a> &nbsp;&nbsp; -->
+                            <!-- <a href="https://github.com/Jiaju-Chen/DLCRec" target="_blank">Code</a> &nbsp;&nbsp; -->
+                            *Corresponding Author. <span class="pub_highlight">Survey</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
 
             <table>
                 <tbody>
@@ -841,7 +880,7 @@
         </section>
 
         <section class="award" id="last">
-        <h1><span>Awards & Honors</span></h1>
+        <h2 class="section-title"><span>Awards &amp; Honors</span></h2>
                 <table border="0">
                     <tbody>
                         <tr>
@@ -896,12 +935,12 @@
 
     </main>
 
-    <img src="//www.clustrmaps.com/map_v2.png?d=q0pKpj6BeLC1KxTiw_ThPA47VJiGKRJEwL5K5IHDa0I&cl=ffffff" style="display: none !important;">
+    <img src="//www.clustrmaps.com/map_v2.png?d=q0pKpj6BeLC1KxTiw_ThPA47VJiGKRJEwL5K5IHDa0I&amp;cl=ffffff" style="display: none !important;" alt="">
     
     <footer id="footer" class="footer">
         <div class="copyright">
           <span class="power-by">
-            Created & Maintained by Chongming GAO.
+            Created &amp; Maintained by Chongming GAO.
           </span>
         </div>
     </footer>
