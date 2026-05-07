@@ -237,7 +237,7 @@ h1 span {
     padding-right: 5px;*/
 
     position: relative;
-    top: -20px;
+    top: -10px;
     /*background-color: #f6f7f9;*/
     background-color: white;
     padding-right: 8px;
@@ -576,8 +576,8 @@ section {
   position: static;
   grid-column: 1 / -1;
   display: flex;
-  align-items: center;
-  gap: 14px;
+  align-items: baseline;
+  /* gap: 2px; */
   width: auto;
   margin: 0 0 24px;
   padding: 0;
@@ -590,7 +590,7 @@ section {
   text-transform: none;
 }
 
-.hero-name span {
+.hero-name .hero-rule {
   position: static;
   flex: 0 0 170px;
   display: block;
@@ -600,12 +600,30 @@ section {
   border: 0;
   border-radius: 999px;
   background: #253955;
+  align-self: center;
 }
 
-.hero-name em {
+.hero-name-en {
+  font-family: "Chancery", "Lato", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1;
+}
+
+.hero-divider {
   font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
-  font-style: normal;
   font-weight: 800;
+  line-height: 1;
+}
+
+.hero-name-cn {
+  display: inline-block;
+  color: #203653;
+  font-family: "Kaiti SC", "STKaiti", "KaiTi", "楷体", "STXingkai", "华文行楷", "Xingkai SC", "HanziPen SC", cursive;
+  font-size: 1.03em;
+  font-weight: 700;
+  line-height: 1;
+  -webkit-text-stroke: 0.25px currentColor;
+  text-shadow: 0.25px 0 0 currentColor;
+  transform: translateY(1px);
 }
 
 .photo {
@@ -718,7 +736,7 @@ a:hover {
 
 .contact-meta a .contact {
   color: var(--accent);
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .contact-location {
@@ -778,6 +796,29 @@ a:hover {
   padding: 0;
   background: transparent;
   white-space: nowrap;
+}
+
+.publication-year {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 26px 0 12px;
+  color: #203653;
+  font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.publication-year:first-of-type {
+  margin-top: 10px;
+}
+
+.publication-year::after {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: var(--line);
 }
 
 .research table {
@@ -960,10 +1001,14 @@ a:hover {
     font-size: 29px;
   }
 
-  .hero-name span {
+  .hero-name .hero-rule {
     width: 96px;
     height: 4px;
     margin-bottom: 10px;
+  }
+
+  .hero-name-cn {
+    font-size: 1.03em;
   }
 
   .photo {
@@ -1035,6 +1080,12 @@ a:hover {
 
   .section-title::after {
     display: none;
+  }
+
+  .publication-year {
+    gap: 10px;
+    margin: 22px 0 10px;
+    font-size: 17px;
   }
 
   .research table {
